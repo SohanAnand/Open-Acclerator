@@ -1,0 +1,19 @@
+# Local vector index and BM25 (use persistent volume in prod, or re-run ingest)
+data/*
+!data/.gitkeep
+
+# Env and Python
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
